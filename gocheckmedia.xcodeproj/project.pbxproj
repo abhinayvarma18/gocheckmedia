@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE6FD24D1D731E0300ACF0CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6FD24C1D731E0300ACF0CC /* main.m */; };
+		EE6FD2501D731E0300ACF0CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6FD24F1D731E0300ACF0CC /* AppDelegate.m */; };
+		EE6FD2531D731E0300ACF0CC /* gocheckmedia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE6FD2511D731E0300ACF0CC /* gocheckmedia.xcdatamodeld */; };
+		EE6FD2561D731E0300ACF0CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6FD2551D731E0300ACF0CC /* ViewController.m */; };
+		EE6FD2591D731E0300ACF0CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6FD2571D731E0300ACF0CC /* Main.storyboard */; };
+		EE6FD25E1D731E0300ACF0CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE6FD25C1D731E0300ACF0CC /* LaunchScreen.xib */; };
+		EE6FD26A1D731E0300ACF0CC /* gocheckmediaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6FD2691D731E0300ACF0CC /* gocheckmediaTests.m */; };
+		EE6FD2781D73229800ACF0CC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6FD2771D73229800ACF0CC /* MainViewController.m */; };
+		EE6FD27A1D732ACC00ACF0CC /* nav_bg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EE6FD2791D732ACC00ACF0CC /* nav_bg.jpeg */; };
+		EE6FD2831D73620D00ACF0CC /* Images 23-46-13-052.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6FD2821D73620D00ACF0CC /* Images 23-46-13-052.xcassets */; };
+		EEC189EE1D74B3B50047CB9B /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = EEC189ED1D74B3B50047CB9B /* image2.png */; };
+		EEDC2A311D755BEC00046752 /* feather.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEDC2A301D755BEC00046752 /* feather.jpg */; };
+		EEEAEDAB1D75F8D4004BD324 /* AccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAEDAA1D75F8D4004BD324 /* AccessoryView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE6FD2641D731E0300ACF0CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE6FD23F1D731E0300ACF0CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE6FD2461D731E0300ACF0CC;
+			remoteInfo = gocheckmedia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE6FD2471D731E0300ACF0CC /* gocheckmedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gocheckmedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6FD24B1D731E0300ACF0CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6FD24C1D731E0300ACF0CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE6FD24E1D731E0300ACF0CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE6FD24F1D731E0300ACF0CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE6FD2521D731E0300ACF0CC /* gocheckmedia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gocheckmedia.xcdatamodel; sourceTree = "<group>"; };
+		EE6FD2541D731E0300ACF0CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE6FD2551D731E0300ACF0CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE6FD2581D731E0300ACF0CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE6FD25D1D731E0300ACF0CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EE6FD2631D731E0300ACF0CC /* gocheckmediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gocheckmediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6FD2681D731E0300ACF0CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6FD2691D731E0300ACF0CC /* gocheckmediaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gocheckmediaTests.m; sourceTree = "<group>"; };
+		EE6FD2761D73229800ACF0CC /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		EE6FD2771D73229800ACF0CC /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		EE6FD2791D732ACC00ACF0CC /* nav_bg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nav_bg.jpeg; sourceTree = "<group>"; };
+		EE6FD2821D73620D00ACF0CC /* Images 23-46-13-052.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images 23-46-13-052.xcassets"; sourceTree = "<group>"; };
+		EEC189ED1D74B3B50047CB9B /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		EEDC2A301D755BEC00046752 /* feather.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = feather.jpg; sourceTree = "<group>"; };
+		EEEAEDA91D75F8D4004BD324 /* AccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessoryView.h; sourceTree = "<group>"; };
+		EEEAEDAA1D75F8D4004BD324 /* AccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessoryView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE6FD2441D731E0300ACF0CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6FD2601D731E0300ACF0CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE6FD23E1D731E0300ACF0CC = {
+			isa = PBXGroup;
+			children = (
+				EE6FD2491D731E0300ACF0CC /* gocheckmedia */,
+				EE6FD2661D731E0300ACF0CC /* gocheckmediaTests */,
+				EE6FD2481D731E0300ACF0CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE6FD2481D731E0300ACF0CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE6FD2471D731E0300ACF0CC /* gocheckmedia.app */,
+				EE6FD2631D731E0300ACF0CC /* gocheckmediaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE6FD2491D731E0300ACF0CC /* gocheckmedia */ = {
+			isa = PBXGroup;
+			children = (
+				EE6FD24E1D731E0300ACF0CC /* AppDelegate.h */,
+				EE6FD24F1D731E0300ACF0CC /* AppDelegate.m */,
+				EE6FD2541D731E0300ACF0CC /* ViewController.h */,
+				EE6FD2551D731E0300ACF0CC /* ViewController.m */,
+				EE6FD2761D73229800ACF0CC /* MainViewController.h */,
+				EE6FD2771D73229800ACF0CC /* MainViewController.m */,
+				EEEAEDA91D75F8D4004BD324 /* AccessoryView.h */,
+				EEEAEDAA1D75F8D4004BD324 /* AccessoryView.m */,
+				EE6FD2571D731E0300ACF0CC /* Main.storyboard */,
+				EEC189ED1D74B3B50047CB9B /* image2.png */,
+				EE6FD2791D732ACC00ACF0CC /* nav_bg.jpeg */,
+				EEDC2A301D755BEC00046752 /* feather.jpg */,
+				EE6FD25C1D731E0300ACF0CC /* LaunchScreen.xib */,
+				EE6FD2511D731E0300ACF0CC /* gocheckmedia.xcdatamodeld */,
+				EE6FD2821D73620D00ACF0CC /* Images 23-46-13-052.xcassets */,
+				EE6FD24A1D731E0300ACF0CC /* Supporting Files */,
+			);
+			path = gocheckmedia;
+			sourceTree = "<group>";
+		};
+		EE6FD24A1D731E0300ACF0CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE6FD24B1D731E0300ACF0CC /* Info.plist */,
+				EE6FD24C1D731E0300ACF0CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE6FD2661D731E0300ACF0CC /* gocheckmediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE6FD2691D731E0300ACF0CC /* gocheckmediaTests.m */,
+				EE6FD2671D731E0300ACF0CC /* Supporting Files */,
+			);
+			path = gocheckmediaTests;
+			sourceTree = "<group>";
+		};
+		EE6FD2671D731E0300ACF0CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE6FD2681D731E0300ACF0CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE6FD2461D731E0300ACF0CC /* gocheckmedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6FD26D1D731E0300ACF0CC /* Build configuration list for PBXNativeTarget "gocheckmedia" */;
+			buildPhases = (
+				EE6FD2431D731E0300ACF0CC /* Sources */,
+				EE6FD2441D731E0300ACF0CC /* Frameworks */,
+				EE6FD2451D731E0300ACF0CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gocheckmedia;
+			productName = gocheckmedia;
+			productReference = EE6FD2471D731E0300ACF0CC /* gocheckmedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE6FD2621D731E0300ACF0CC /* gocheckmediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6FD2701D731E0300ACF0CC /* Build configuration list for PBXNativeTarget "gocheckmediaTests" */;
+			buildPhases = (
+				EE6FD25F1D731E0300ACF0CC /* Sources */,
+				EE6FD2601D731E0300ACF0CC /* Frameworks */,
+				EE6FD2611D731E0300ACF0CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE6FD2651D731E0300ACF0CC /* PBXTargetDependency */,
+			);
+			name = gocheckmediaTests;
+			productName = gocheckmediaTests;
+			productReference = EE6FD2631D731E0300ACF0CC /* gocheckmediaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE6FD23F1D731E0300ACF0CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Abhinay Varma";
+				TargetAttributes = {
+					EE6FD2461D731E0300ACF0CC = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					EE6FD2621D731E0300ACF0CC = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EE6FD2461D731E0300ACF0CC;
+					};
+				};
+			};
+			buildConfigurationList = EE6FD2421D731E0300ACF0CC /* Build configuration list for PBXProject "gocheckmedia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE6FD23E1D731E0300ACF0CC;
+			productRefGroup = EE6FD2481D731E0300ACF0CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE6FD2461D731E0300ACF0CC /* gocheckmedia */,
+				EE6FD2621D731E0300ACF0CC /* gocheckmediaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE6FD2451D731E0300ACF0CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6FD27A1D732ACC00ACF0CC /* nav_bg.jpeg in Resources */,
+				EE6FD2591D731E0300ACF0CC /* Main.storyboard in Resources */,
+				EEDC2A311D755BEC00046752 /* feather.jpg in Resources */,
+				EE6FD25E1D731E0300ACF0CC /* LaunchScreen.xib in Resources */,
+				EE6FD2831D73620D00ACF0CC /* Images 23-46-13-052.xcassets in Resources */,
+				EEC189EE1D74B3B50047CB9B /* image2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6FD2611D731E0300ACF0CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE6FD2431D731E0300ACF0CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6FD2501D731E0300ACF0CC /* AppDelegate.m in Sources */,
+				EE6FD24D1D731E0300ACF0CC /* main.m in Sources */,
+				EE6FD2561D731E0300ACF0CC /* ViewController.m in Sources */,
+				EEEAEDAB1D75F8D4004BD324 /* AccessoryView.m in Sources */,
+				EE6FD2781D73229800ACF0CC /* MainViewController.m in Sources */,
+				EE6FD2531D731E0300ACF0CC /* gocheckmedia.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6FD25F1D731E0300ACF0CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6FD26A1D731E0300ACF0CC /* gocheckmediaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE6FD2651D731E0300ACF0CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE6FD2461D731E0300ACF0CC /* gocheckmedia */;
+			targetProxy = EE6FD2641D731E0300ACF0CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE6FD2571D731E0300ACF0CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE6FD2581D731E0300ACF0CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE6FD25C1D731E0300ACF0CC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE6FD25D1D731E0300ACF0CC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE6FD26B1D731E0300ACF0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE6FD26C1D731E0300ACF0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE6FD26E1D731E0300ACF0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gocheckmedia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE6FD26F1D731E0300ACF0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gocheckmedia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE6FD2711D731E0300ACF0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = gocheckmediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gocheckmedia.app/gocheckmedia";
+			};
+			name = Debug;
+		};
+		EE6FD2721D731E0300ACF0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = gocheckmediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gocheckmedia.app/gocheckmedia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE6FD2421D731E0300ACF0CC /* Build configuration list for PBXProject "gocheckmedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6FD26B1D731E0300ACF0CC /* Debug */,
+				EE6FD26C1D731E0300ACF0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6FD26D1D731E0300ACF0CC /* Build configuration list for PBXNativeTarget "gocheckmedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6FD26E1D731E0300ACF0CC /* Debug */,
+				EE6FD26F1D731E0300ACF0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6FD2701D731E0300ACF0CC /* Build configuration list for PBXNativeTarget "gocheckmediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6FD2711D731E0300ACF0CC /* Debug */,
+				EE6FD2721D731E0300ACF0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE6FD2511D731E0300ACF0CC /* gocheckmedia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE6FD2521D731E0300ACF0CC /* gocheckmedia.xcdatamodel */,
+			);
+			currentVersion = EE6FD2521D731E0300ACF0CC /* gocheckmedia.xcdatamodel */;
+			path = gocheckmedia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE6FD23F1D731E0300ACF0CC /* Project object */;
+}
